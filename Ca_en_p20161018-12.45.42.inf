@@ -1,0 +1,103 @@
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+   MERCURY
+ 2439000 3.70012310209203 5.3E+12 100.E-9 5.E+5 400d3  
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+   Operating System L(inux) / W(indows):    
+L 1 2211
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+  Data folder   
+/Users/christinaplainaki/MERCURY2015_Ale/CaO/
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ Technical parameters: rmax_i,rmax_n,if_i,if_n,acc(%),step(s),prtcls,mp_map,e_map,mb,b_lines,b_mab,traj,reset 
+ 3 3 0 1 0 1.0 1E8 0 0 0 0 0 0 0 0
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  Magnetic field parameters: i_Kpindex,x_vel,x_dens,x_DST,x_BxIMF,x_ByIMF,x_BzIMF, para, ibm 
+ 4 700 60 0 -15 10 10 6.9 2 1.45 .8
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  Electric field paramenters: xer1,xer2,yer1,yer2,zer1,zer2, nex,ney,nez,log10pdrop,ipot 
+ -5 3 -4 4 -4 4 40 40 40 1d4 1
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  Independent sources 1=sw [# nup(cm-3) vup(kms) tup(K)] 2=psd [amu beta temp(K) sigma(m-2)] 3=TD[amu bind(eV) freq(s-1)] 4,5=HSP[amu bind(eV) yield] 6=MMS[amu temp flux]
+6 20 7d4 1.15d10 2  0 0 0
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  Dependent sources and other processes  1=sputt [amu eb yeld ...] 2=PhIon [amu # tau ...] 
+-15 145  143 300   0.3 0 Ca(OH)2>CaOH e OH
+-15 144  143  60   0.3 0 Ca(OH)>Ca e OH
+-14 134  8    60   2 0 CaO(134)> O(8) e trascura il calcio
+-14 134  20    13330   0.8 0 CaO(134)>Ca(20) e trascura l'ossigeno
+ 12 20   0    1740 0.5 0  fotoionizzazione del Ca
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  Temperatures (t_day e t_night, in K, @ perihelium and apohelium),  anomaly, photon flux @ 1AU 
+  725 110 590 110 150 3e+19 1.5 1.5 1.9891d30 7d7
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  Surface properties [amu comp% atomic_radius (pm)] 
+ 20 3.09 0 Ca TBC
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  Surface composition map 
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0.143	0.238	0.238	0.119	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0.286	0.477	0.477	0.238	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0.114	0.191	0.191	0.0954	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  Exosphere additional model  d= 10**(a0+a1*x+a2*x^2...) x=log10((height)/1000.) 
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  Accumulation spherical grid: r1,r2,lat1,lat2,lon1,lon2, nr,nlat,nlon 
+ 1 3 -90 90 -180 180 20 12 24 
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ Other dimensions of accumulation grid:  ene1,ene2, mas1,mas2, charge1,charge2, pa1,pa2, ie im,iq,ip, js(always=1) 
+ .0001 10000 20 20 0 0  0 180 1 1 1 1 1 Ca    RETURN
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ Accumulation cubic grid: x1,x2,y1,y2,z1,z2, nx,ny,nz 
+ -10 10 -10 10 -5 5 20 20 10
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ Other dimensions of accumulation grid:  ene1,ene2, mas1,mas2, charge1,charge2, pa1,pa2, ie im,iq,ip, js(always=1) 
+ .01 100 1 100 0 0 -5.5 5.5 1 1 1 1 1 H, no energy resolution    RETURN  
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ Instruments: type-x-y-z (rmer) vx-vy-vz (attitude) 
+FINE 
+ elastic cross sections                        
+  Proj	Targ    100		1000	10000	
+	1  	120  	3.5E-15   	8E-16   10-16  	0	elastic  	Fit from Newman et al. 1986  	0  	 
+	1 	123 	3.5E-15  	8E-16  	10-16   0	elastic 	Fit from Newman et al. 1986 	0 	 
+	1 	8 	3.5E-15  	8E-16  	10-16 		0	elastic 	Fit from Newman et al. 1986 	0 	 
+	1.1 	120 	3.5E-15  	8E-16  	10-16	0 	elastic 	Fit from Newman et al. 1986 	0 	 
+	1.1 	123 	3.5E-15  	8E-16  	10-16	0	elastic 	Fit from Newman et al. 1986 	0 	 
+	1.1 	8 	3.5E-15  	8E-16  	10-16 	0	elastic 	Fit from Newman et al. 1986 	0 	 
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ electron stripping cross sections
+	Proj	Targ    100		1000	10000	
+1 	120 	4E-18 	10-16 	2E-16 		-14.9 Electron-stripping 	Van Zyl et al 1978  	 
+1 	123 	6E-18 	1.8E-16 2.2E-16 	-14.9 Electron-stripping 	Van Zyl et al 1978 		 
+1 	8 		6E-18 	3E-17 	1.2E-16 	-14.9 Electron-stripping 	McNeal and Birely 1973 	 
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ charge exchange cross sections
+  Proj	Targ    100		1000	10000	
+1.1 	120 	1.6E-15 1.4E-15	7E-16 	-0.4	Charge- exchange 	Rees 1989 	 	 
+1.1 	123 	9E-18  	8E-16  	1.5E-15 -3.4	Charge- exchange 	Rees 1989 	 
+1.1 	8 		10-15  	9E-16  	7E-15 	-2.4	Charge- exchange 	McNeal and Birely 1973  	 
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ ionization cross sections
+  Proj	Targ    100		1000	10000	
+1 		120 	9E-18 	10-16 	3E-16 	-16.6  Target ionization 	Van Zyl et al 1978 		                        
+1 		123 	2E-18 	4E-17 	4E-16 	-19.6  Target ionization 	Van Zyl et al 1978 		                        
+1 		8 		8E-19 	10-17 	10-16 	-18.5  Target ionization 	McNeal and Birely 1973 	 	                      
+1.1 	120 	2E-18 	2E-17 	4E-16 	-16.6  Target ionization 	Van Zyl et al 1978 		                      
+1.1 	123 	1.5E-17 7E-17 	3E-16 	-19.6  Target ionization 	Van Zyl et al 1978 		                    
+1.1 	8 		5E-19 	7E-18 	8E-17 	-18.5  Target ionization 	McNeal and Birely 1973 	                      
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -----END---- 
+
+ alex.mura@gmail.com
